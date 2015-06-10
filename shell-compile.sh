@@ -1,10 +1,10 @@
 #!/bin/bash
 ##################################################################
-## Name:	compile.sh						                    ##
-## Purpose:	assembles and links nasm source into executable     ##
+## Name:	compile.sh					##
+## Purpose:	assembles and links nasm source into executable ##
 ##              then executes objdump to generate and print out ##
 ##              shellcode and it's length.                      ##
-## Author:	re4son [at] whitedome.com.au				        ##
+## Author:	re4son [at] whitedome.com.au			##
 ##################################################################
 
 
