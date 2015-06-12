@@ -12,14 +12,14 @@ PROGRAM=$1
 EXT="${PROGRAM##*.}"
 
 
-if [ $EXT == "nasm" ]
+if [ $EXT == "nasm" ];
     then
 	PROGRAM="${PROGRAM%.*}"
     else
 	PROGRAM=$1
 fi
 
-if [ ! -f $PROGRAM ]
+if [ ! -f $PROGRAM ];
     then
 	echo "[!] Cannot find $PROGRAM.nasm"
 	echo "[-] Exiting"
